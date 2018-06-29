@@ -1,0 +1,1 @@
+Folder for JB to add Ruby/Rails features & functions. And gems. Gotta have those gems. 
