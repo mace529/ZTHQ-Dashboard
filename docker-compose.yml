@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  zthq-webasp:
+    image: ${DOCKER_REGISTRY}zthqwebasp
+    build:
+      context: .\ZTHQ-WebASP
+      dockerfile: Dockerfile
