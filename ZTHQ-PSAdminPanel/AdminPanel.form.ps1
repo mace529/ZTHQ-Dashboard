@@ -53,7 +53,24 @@ $comboxSetupMoreTigersMigrationSite_SelectedIndexChanged = {
 
 
 
-
+<#Begin {
+	Write-Host '<description of what is going on>...'
+}
+Process {
+	Try {
+		<code goes here>
+	}
+	Catch {
+		Write-Host -BackgroundColor Red "Error: $($_.Exception)"
+		Break
+	}
+}
+End {
+	If ($?) {
+		Write-Host 'Completed Successfully.'
+		Write-Host ' '
+	}
+}#>
 
 
 
